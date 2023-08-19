@@ -1,0 +1,5 @@
+encryptionsalt: v1:1Oese6FIXMw=:v1:IMF86+ASsezEFCDq:X2dBGURB9AQ2IpVaMMTrv5AmDgGjuA==
+config:
+  aws:region: us-west-2
+  scribe-backend:config:
+    vpcID: vpc-04c85e0a1136684be

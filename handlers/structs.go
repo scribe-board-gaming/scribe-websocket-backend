@@ -7,6 +7,7 @@ type Game struct {
 	id         string
 	password   string
 	maxClients int
+	owner      *Client
 }
 
 type Client struct {
