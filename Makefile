@@ -1,3 +1,5 @@
+run:
+	go run main.go
 build-version:
 	@CGO_ENABLED=0 go build -ldflags="-X 'main.Version=${VERSION}' -X 'main.BuildTime=${NOW}' -X 'main.Release=${RELEASE}'" -o build
 
